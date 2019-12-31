@@ -1,0 +1,130 @@
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    color: #777777;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+button:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.main_title2 {
+    background: #f9f9ff;
+    border-left: 3px solid #ff1857;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.main_title2 h2 {
+    color: #222222;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 40px;
+    padding-left: 15px;
+    margin-bottom: 0px;
+}
+
+.latest_news .media {
+    margin-bottom: 30px;
+}
+
+.latest_news .media .d-flex {
+    padding-right: 30px;
+}
+
+.latest_news .media:last-child {
+    margin-bottom: 0px;
+}
+
+.choice_text {
+    margin-top: 20px;
+}
+
+.date {
+    margin-bottom: 15px;
+}
+
+.date a {
+    color: #777777;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    margin-right: 15px;
+}
+
+.date a i {
+    padding-right: 8px;
+}
+
+.choice_text {
+    margin-top: 20px;
+}
+
+.choice_text h4 {
+    font-size: 18px;
+    line-height: 27px;
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+}
+
+.choice_text h4:hover {
+    color: #ff1857;
+}
+
+.choice_text p {
+    margin-bottom: 0px;
+}
+
+@media (max-width:1199px) {}
+
+@media (max-width:767px) {
+    .latest_news .media .d-flex {
+        padding-right: 0px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .latest_news .media {
+        margin-bottom: 0px;
+        display: block;
+        max-width: 300px;
+        margin: 0px auto 30px;
+    }
+}
+
+@media (max-width:991px) {
+    .right_sidebar {
+        margin-top: 50px;
+    }
+}
